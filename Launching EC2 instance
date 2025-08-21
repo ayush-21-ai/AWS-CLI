@@ -9,3 +9,5 @@ aws ec2 run-instances \
     --security-group-ids sg-0a91c4d33f5c71e44 \
     --subnet-id subnet-02db5994e3107d3de \
     --count 1
+Deletion of the instance:
+aws ec2 terminate-instances --instance-ids i-06a82aa73dfb3177f (replace with the instance ID)
